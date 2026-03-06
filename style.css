@@ -1,0 +1,167 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a5a23a;
+    color: #000;
+}
+
+
+header {
+    background-color: #5a5400;
+    color: #2b0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    border-bottom: 4px solid #4aa3ff;
+}
+
+.logo {
+    width: 100px;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Кнопки */
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: #c97b7b;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #a85c5c;
+    transform: scale(1.05);
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 20px;
+}
+.menu{
+    background-color: rgba(85, 83, 0, 1);
+    padding: 60px 10%}
+.menu h2 {
+    font-size: 32px;
+    text-align:center ;
+    margin-bottom: 50px;
+
+}
+.menu-item{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(85, 83, 0, 1);
+
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+  
+}
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0;
+}
+.menu-item img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    object-position: center;
+    
+}
+.menu-info{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.sales-items{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    padding-bottom: 40px;
+
+
+} 
+.about{
+    text-align: center;
+    padding: 40px 15%;
+    font-size: 20px;
+    line-height: 1.6;
+
+}
+
+.full-width-img{
+    width: 100%;
+    display: block;
+    border: 5px solid black;
+
+}
+footer{
+    background-color:rgba(85, 83, 0, 1) ;
+    padding: 40px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    gap: 15pxz;
+    margin: 20px 0px;
+}
+.socials img {
+    width: 40px;
+
+}
+.footer-logo{
+    width: 120px;
+}
